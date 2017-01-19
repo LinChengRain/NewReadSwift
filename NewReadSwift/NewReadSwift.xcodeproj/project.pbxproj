@@ -19,6 +19,7 @@
 		7B0DBE9F1E28B3C60099DE98 /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0DBE9E1E28B3C60099DE98 /* UIColor+HexString.swift */; };
 		7B1317F61E2CC72C005BA2F9 /* ExpressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1317F51E2CC72C005BA2F9 /* ExpressViewModel.swift */; };
 		7B1317F81E2CCD6D005BA2F9 /* ExpressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1317F71E2CCD6D005BA2F9 /* ExpressModel.swift */; };
+		7B496A5B1E309FA500C4C060 /* UIButton+ImageTitleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B496A5A1E309FA500C4C060 /* UIButton+ImageTitleLayout.swift */; };
 		7B9BFC3B1E2A03D700AADFE3 /* HDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BFC3A1E2A03D700AADFE3 /* HDetailViewController.swift */; };
 		7B9BFC3E1E2A2CB100AADFE3 /* ScrollSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BFC3D1E2A2CB100AADFE3 /* ScrollSegmentView.swift */; };
 		7B9BFC401E2A2D0000AADFE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BFC3F1E2A2D0000AADFE3 /* ContentView.swift */; };
@@ -55,6 +56,7 @@
 		7B0DBE9E1E28B3C60099DE98 /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
 		7B1317F51E2CC72C005BA2F9 /* ExpressViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressViewModel.swift; sourceTree = "<group>"; };
 		7B1317F71E2CCD6D005BA2F9 /* ExpressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressModel.swift; sourceTree = "<group>"; };
+		7B496A5A1E309FA500C4C060 /* UIButton+ImageTitleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ImageTitleLayout.swift"; sourceTree = "<group>"; };
 		7B9BFC3A1E2A03D700AADFE3 /* HDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDetailViewController.swift; sourceTree = "<group>"; };
 		7B9BFC3D1E2A2CB100AADFE3 /* ScrollSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSegmentView.swift; sourceTree = "<group>"; };
 		7B9BFC3F1E2A2D0000AADFE3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				7B0DBE9E1E28B3C60099DE98 /* UIColor+HexString.swift */,
 				7BFEAC861E28B936009519E1 /* Api.swift */,
 				7BFEBDF41E2C79EB0058958E /* UIView+Extension.swift */,
+				7B496A5A1E309FA500C4C060 /* UIButton+ImageTitleLayout.swift */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				7B9BFC401E2A2D0000AADFE3 /* ContentView.swift in Sources */,
 				7B0DBE961E28A9D40099DE98 /* PersonalViewController.swift in Sources */,
 				7B0DBE981E28A9DE0099DE98 /* HomeViewController.swift in Sources */,
+				7B496A5B1E309FA500C4C060 /* UIButton+ImageTitleLayout.swift in Sources */,
 				7B0DBE9F1E28B3C60099DE98 /* UIColor+HexString.swift in Sources */,
 				7BD413981E29D3910075326F /* NewsModel.swift in Sources */,
 				7BFEAC8E1E28CCA7009519E1 /* NewsViewModel.swift in Sources */,
