@@ -15,10 +15,11 @@ class Api: NSObject {
 
 //MARK: - 应用接口
 ///请求示例：http://v.juhe.cn/toutiao/index?type=top&key=APPKEY
-let News_Base_Url = "http://v.juhe.cn/toutiao/index"
+let News_Base_Url = "http://v.juhe.cn/toutiao/index"  ///新闻头条
 let Exp_Base_Url = "http://v.juhe.cn/exp/index"
-let Express_Base_Url = "https://m.kuaidi100.com/index_all.html"
-
+let Express_Base_Url = "https://m.kuaidi100.com/index_all.html" ///快递单号
+let Video_Base_Url = "http://op.juhe.cn/onebox/movie/video"  //影讯搜索
+let PMovie_Base_Url = "http://op.juhe.cn/onebox/movie/pmovie" ///最近影讯
 
 /// 根据RGBA生成颜色(格式为：22,22,22,0.5)
 func RGBColor(_ red:CGFloat,_ green:CGFloat,_ blue:CGFloat) -> UIColor {
@@ -34,6 +35,7 @@ func CGRectMake(_ x:CGFloat,_ y:CGFloat,_ width:CGFloat,_ height:CGFloat) -> CGR
 //MARK: - 常量
 let NewsAppKey = "1db74f2bee7789d6527a4db98d2a680e"
 let ExpAppKey = "b353745235c76911e3eba630e329b24f"
+let MovieAppKey = "df8a74671ac93901d790de8333c4f5e9"
 
 let K_Screen_Height = UIScreen.main.bounds.size.height
 let K_Screen_Width = UIScreen.main.bounds.size.width

@@ -25,13 +25,14 @@ class LCTabBarViewController: UITabBarController {
         let home = HomeViewController()
         addChildController(home, "首页", "tabBar_home_Normal", "tabBar_home_Selected")
         
+        //电影
+        let movie = MovieViewController()
+        addChildController(movie, "电影", "tabBar_movie_Normal", "tabBar_movie_Selected")
+        
         //个人
         let personal = PersonalViewController()
         addChildController(personal, "我的", "tabBar_person_Normal", "tabBar_person_Selected")
-        
-        
-    
-    
+
     }
     
     

@@ -8,5 +8,5 @@ target 'NewReadSwift' do
   pod 'HandyJSON'
   pod 'AlamofireImage', '~> 3.1'
   # Pods for NewReadSwift
-
+  pod 'Log'
 end

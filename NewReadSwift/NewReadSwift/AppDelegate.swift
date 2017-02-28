@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Log
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,7 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //设置根控制器
         let lcTabBarVC = LCTabBarViewController()
         self.window?.rootViewController = lcTabBarVC
-        
         return true
     }
 

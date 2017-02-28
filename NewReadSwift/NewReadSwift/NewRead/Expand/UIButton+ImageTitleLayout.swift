@@ -67,6 +67,4 @@ extension UIButton{
         titleEdgeInsets = labelEdgeInsets
         imageEdgeInsets = imageViewEdgeInsets  
     }
-
-
 }
